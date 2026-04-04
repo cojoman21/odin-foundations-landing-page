@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.header {
+    height: 100%;
+    background-color: #1f2937;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    gap: 40px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-image {
+    min-height: 200px;
+    width: 400px;
+    background-color: bisque;
+}
