@@ -149,7 +149,7 @@ button {
     width: 100%;
 }
 
-.bodyContent {
+.first-body .container {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -164,7 +164,6 @@ button {
     flex-wrap: wrap;
     margin-top: 50px;
     gap: 20px;
-    align-items: center;
     text-align: center;
 }
 
@@ -197,4 +196,72 @@ button {
     display: block;
     top: 0;
     left: 0;
+}
+
+.second-body {
+    background: #e5e7eb;
+}
+
+.second-body .container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    margin: 50px auto 100px auto;
+    padding: 50px 0;
+}
+
+.second-body .quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.second-body .author {
+    font-size: 20px;
+    font-weight: 600;
+    align-self: flex-end;
+}
+
+.third-body {
+    background: #3882f6;
+    width: 80%;
+    display: flex;
+    /* justify-self: center; */
+    margin: 50px auto;
+    border-radius: 8px;
+}
+
+.third-body .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.third-body .call-to-action {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.third-body .sign-up-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.third-body .text {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+.sign-up-button {
+    outline: 2px solid #ffffff;
+}
+
+.sign-up-button:active {
+    outline: 2px solid #757575;
 }
