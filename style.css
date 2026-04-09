@@ -265,3 +265,13 @@ button {
 .sign-up-button:active {
     outline: 2px solid #757575;
 }
+
+.footer {
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+}
